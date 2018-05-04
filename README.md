@@ -8,4 +8,4 @@ Run with ```yarn dev```
 
 Build with ```yarn build [--win|--mac] [--ia32]```
 
-Enjoy
+Enjoy <3
