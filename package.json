@@ -1,0 +1,53 @@
+{
+  "name": "react-electron-tic-tac-toe",
+  "description": "Powered up version of Tic Tac Toe",
+  "version": "1.1.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "electron-webpack dev",
+    "compile": "electron-webpack",
+    "dist": "yarn compile && electron-builder",
+    "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
+  },
+  "build": {
+    "appId": "tic.tac.toe.electron",
+    "productName": "Tic-Tac-Thunder",
+    "copyright": "Lorenzo Alberto Maria Ambrosi",
+    "win": {
+      "icon": "icon.png"
+    },
+    "mac": {
+      "icon": "icon.png"
+    }
+  },
+  "dependencies": {
+    "jquery": "3.3.1",
+    "lodash": "4.17.5",
+    "materialize-css": "0.100.2",
+    "node-fetch": "2.1.1",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-materialize": "2.1.2",
+    "recompose": "0.26.0",
+    "source-map-support": "0.5.4"
+  },
+  "devDependencies": {
+    "@types/async": "2.0.48",
+    "@types/lodash": "4.14.108",
+    "@types/node-fetch": "1.6.7",
+    "@types/react": "16.3.13",
+    "@types/react-dom": "16.0.5",
+    "@types/recompose": "0.24.7",
+    "electron": "1.8.4",
+    "electron-builder": "20.5.1",
+    "electron-webpack": "1.13.0",
+    "electron-webpack-ts": "2.0.0",
+    "ts-loader": "3",
+    "typescript": "2.7.2",
+    "webpack": "3.11.0"
+  },
+  "resolutions": {
+    "webpack-sources": "1.1.0"
+  },
+  "author": "lorenzothunder.ambrosi@gmail.com"
+}
