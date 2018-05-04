@@ -24,7 +24,6 @@
     "jquery": "3.3.1",
     "lodash": "4.17.5",
     "materialize-css": "0.100.2",
-    "node-fetch": "2.1.1",
     "react": "16.2.0",
     "react-dom": "16.2.0",
     "react-materialize": "2.1.2",
@@ -34,7 +33,6 @@
   "devDependencies": {
     "@types/async": "2.0.48",
     "@types/lodash": "4.14.108",
-    "@types/node-fetch": "1.6.7",
     "@types/react": "16.3.13",
     "@types/react-dom": "16.0.5",
     "@types/recompose": "0.24.7",
