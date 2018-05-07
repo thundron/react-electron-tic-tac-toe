@@ -1,6 +1,6 @@
 # Tic-Tac-Thunder
 
-Powered up version of Tic-Tac-Toe using React, Electron and TypeScript (with a bit of functional programming)
+Powered up version of Tic-Tac-Toe using React, Electron and TypeScript
 
 Use **node v8.9.4** to run/build
 
